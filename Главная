@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Train</title>
+</head>
+<body>
+    <style>
+        .first {
+            display: flex;           
+            justify-content: center; 
+            align-items: center;     
+            background-size: cover;
+            background-position: center;
+            border-bottom-color: #000000;
+            border-bottom-style: solid;
+            border-bottom-width: 10px;
+            background-image: url('https://static.vecteezy.com/system/resources/previews/025/547/454/non_2x/study-doodle-background-vector.jpg');
+
+        }
+
+        .a{
+            font-size: 60px;
+
+        }
+
+        .math{
+            width: 250px;
+            height: 250px;
+            border-radius: 10%;
+            border-color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            border-width: 10px;
+            border-style: solid;
+            margin-left: 200px;
+            margin-top: 200px;
+        }
+
+        .q{
+            display: flex;           
+            justify-content: center; 
+            align-items: center; 
+            margin-top: -5%;
+        }
+
+        .w{
+        width: 180px;
+        height: 180px;
+        margin-left: 35px;
+        margin-top: 10px;
+        }
+
+        .rus{
+            width: 250px;
+            height: 250px;
+            border-radius: 10%;
+            border-color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            border-width: 10px;
+            border-style: solid;
+            margin-left: 600px;
+            margin-top: -270px;
+        }
+
+        .s{
+            display: flex;           
+            justify-content: center; 
+            align-items: center; 
+            margin-top: -24%;
+        }
+
+        .d{
+            display: flex;
+            width: 250px;
+            height: 250px;
+            margin-top: -10px;
+        }
+
+        .engl{
+            width: 250px;
+            height: 250px;
+            border-radius: 10%;
+            border-color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            border-width: 10px;
+            border-style: solid;
+            margin-left: 1000px;
+            margin-top: -270px;
+        }
+
+        .n{
+            display: flex;           
+            justify-content: center; 
+            align-items: center; 
+            margin-top: -5%;
+        }
+
+        .k{
+        width: 180px;
+        height: 180px;
+        margin-left: 35px;
+        margin-top: 10px;
+        }
+
+        body{
+            background-image: url('https://fons.grizly.club/uploads/posts/2025-06/04/17490641444841.jpg');
+            background-position: center;
+            background-size: cover;
+            
+        }
+
+        .krs{
+            display: flex;           
+            justify-content: center; 
+            align-items: center;     
+            background-size: cover;
+            background-position: center;
+            border-color: rgb(0, 0, 0);
+            border-style: solid;
+            border-width: 10px;
+            width: 300px;
+            margin-left: 41.5%;
+            background-image: url('https://img.magnific.com/premium-psd/psd-white-abstract-background-abstract-shapes-wallpaper-white_691560-10775.jpg?semt=ais_hybrid');
+            margin-top: -10px;
+        }
+
+        .kurses{
+            margin-top: -60px;
+  
+        }
+
+        .hist{
+            width: 250px;
+            height: 250px;
+            border-radius: 10%;
+            border-color: rgb(0, 0, 0);
+            background-color: rgb(255, 255, 255);
+            border-width: 10px;
+            border-style: solid;
+            margin-left: 1400px;
+            margin-top: -270px;
+        }
+
+        .nadpis{
+            display: flex;           
+            justify-content: center; 
+            align-items: center; 
+            margin-top: -10%;
+        }
+
+        .img{
+        width: 200px;
+        height: 200px;
+        margin-left: 25px;
+        margin-top: 5px;
+        }
+
+    </style>
+    
+    <section class="first">
+        <a><h1 class="a">Brain Train</h1></a>
+    </section>
+
+    <section class="krs">
+        <a><h1>Выберите курс:</h1></a>
+    </section>
+    <section class="kurses">
+        <a href="file:///C:/Users/HappYBook/OneDrive/Desktop/программы/Проект%207%20класс/Математика/index1.html" class="sl">
+            <section class="math" >
+                <img class="w" src="https://cdn-icons-png.flaticon.com/512/97/97709.png" >
+                <a class="q"><h1>Математика</h1></a>
+            </section>
+        </a>
+
+        <a href="file:///C:/Users/HappYBook/OneDrive/Desktop/программы/Проект%207%20класс/русич/index.html" class="sl1">
+            <section class="rus" >
+                <img class="d" src="https://i.pinimg.com/originals/e7/3d/53/e73d53a7777a4e02cd57bab3d1fb6990.png" >
+                <a class="s"><h1>Русский</h1></a>
+            </section>
+        </a>
+
+        <a href="file:///C:/Users/HappYBook/OneDrive/Desktop/программы/Проект%207%20класс/инглиш/index.html" class="sl2">
+            <section class="engl" >
+                <img class="k" src="https://www.svgrepo.com/show/281916/cubes-abc.svg" >
+                <a class="n"><h1>Английский</h1></a>
+            </section>
+        </a>
+
+        <a href="file:///C:/Users/HappYBook/OneDrive/Desktop/программы/Проект%207%20класс/история/index.html" class="sl3">
+            <section class="hist" >
+                <img class="img" src="https://images.emojiterra.com/google/noto-emoji/unicode-16.0/bw/512px/1f4dc.png" >
+                <a class="nadpis"><h1>История</h1></a>
+            </section>
+        </a>
+    </section>
+</body>
+</html>
